@@ -25,7 +25,7 @@ function block(color) {
   document.body.appendChild(div);
 }
 
-for (let i = 0; i < 81; i++) {
+for (let i = 0; i < 89; i++) {
   i % 2 === 0 ? block(randomColor()) : block(randomColor());
 }
 
